@@ -30,7 +30,7 @@ function showResult(response) {
   document.querySelector("#wind").innerHTML= Math.round(response.data.wind.speed);
 }
 function findMe(event) {
-  event.preventDefault();
+  
   let city = document.querySelector("#city-name").value;
   search(city);
 }
@@ -42,7 +42,7 @@ function searchLocation(position) {
 }
 
 function getCurrentLocation(event) {
-  event.preventDefault();
+  
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
