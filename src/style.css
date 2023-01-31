@@ -13,7 +13,7 @@ li {
   background-color: rgb(34, 193, 195);
   background: radial-gradient(
     circle at -1% 57.5%,
-    rgb(173, 51, 92) 0%,
+    rgb(51, 169, 173) 0%,
     rgb(223, 240, 128) 90%
   );
 }
